@@ -5,6 +5,7 @@ import { userRouter } from './users/user.routes';
 import { stateRouter } from './state/state.route';
 import { cityRouter } from './city/city.route';
 import { authRouter } from './auth/auth.route';
+import { rateLimiterMiddleware } from './middleware/ratelimiter';
 
 dotenv.config();
 
@@ -14,6 +15,7 @@ const app: Application = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(logger);
+app.use(rateLimiterMiddleware);
 
 
 

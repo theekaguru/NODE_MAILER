@@ -9,7 +9,7 @@ GET http://localhost:5000/
 //get all users
 ###
 GET http://localhost:5000/api/users
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImVtYWlsIjoiZGFuaWVsQGdtYWlsLmNvbSIsImZ1bGxOYW1lIjoiZGFuaWVsIiwidXNlclR5cGUiOiJhZG1pbiIsImV4cCI6MTc0OTA1NDkzMCwiaWF0IjoxNzQ5MDUxMzMwfQ.u5e51kHHu6DK-SDQ2Imi0gApMITH6dY-Mq3KNLAATCM
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImVtYWlsIjoiZGFuaWVsQGdtYWlsLmNvbSIsImZ1bGxOYW1lIjoiZGFuaWVsIiwidXNlclR5cGUiOiJhZG1pbiIsImV4cCI6MTc0OTM4NTUwNSwiaWF0IjoxNzQ5MzgxOTA1fQ.miDcqrDrGzSaZEUkQ6L3aodtXpywYKna-dO_P40WP88
 
 
 //get user by Id

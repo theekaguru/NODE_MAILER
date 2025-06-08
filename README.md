@@ -11,3 +11,8 @@ pnpm add -D @types/bcrypt
 
 pnpm add jsonwebtoken
 pnpm add -D @types/jsonwebtoken
+
+
+//RATE LIMITER
+
+pnpm add rate-limiter-flexible
